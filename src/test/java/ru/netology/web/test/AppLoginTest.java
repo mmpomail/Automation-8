@@ -13,11 +13,6 @@ public class AppLoginTest {
 
     LoginPage loginPage;
 
-    @AfterEach
-    void eraseAll() {
-        cleanDatabase();
-    }
-
     @AfterAll
     static void eraseDownAll() {
         cleanDatabase();
